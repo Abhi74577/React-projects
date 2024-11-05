@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.input input{
+   border: 2px solid black;
+   
+    
+}
+
+.input button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
